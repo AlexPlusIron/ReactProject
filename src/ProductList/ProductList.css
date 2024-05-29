@@ -1,0 +1,10 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .sort-list {
+    display: flex; /*Включаем flexbox */
+    align-items: center; /*Выравниваем элементы по вертикали */
+  }

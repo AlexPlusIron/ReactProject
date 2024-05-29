@@ -1,0 +1,73 @@
+.cart-item {
+    display: flex; 
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif; /*Выберите шрифт */
+    width: 60%;
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    align-content: center;
+    border-right: 1px solid #ccc;
+    
+  }
+  
+  .cart-item-details {
+    flex: 1; /*Детали товара занимают все доступное пространство */
+    padding-left: 15px;
+    color: rgb(82, 82, 82);
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    align-content: center;
+
+  }
+  
+  .cart-item-actions {
+     
+    top: 10px;
+    right: 10px; 
+  }
+  
+  .remove-item-button {
+    background: none; /*Убираем фон */
+    border: none;       /*Убираем рамку */
+    padding: 5px;       
+    font-size: 1.2em;
+    cursor: pointer; 
+  }
+
+  .quantity-controls_01 {
+    display: flex;                /* Объединяем кнопки и счетчик в единый блок */
+    align-items: center;            /* Выравниваем элементы по вертикали  */
+    border: 1px solid #ccc;        /* Серая рамка вокруг всего блока */
+    border-radius: 4px;            /* Скругление углов блока */
+    width: fit-content;
+    margin: 10px;
+    margin-left: 150px;
+    
+  }
+  
+  .quantity-controls_01 button {
+    /*Стили для кнопок + и - */
+    background-color: transparent; /*Прозрачный фон */
+    border: none;                  /*Убираем стандартную рамку */
+    padding: 12px 15px;             /*Отступы внутри кнопки */
+    font-size: 16px;               /*Размер шрифта */
+    cursor: pointer;              /*Курсор - указатель */
+  }
+  
+  .quantity-controls_01 button:hover {
+    background-color: #f0f0f0;   /* Серый фон при наведении */
+  }
+  
+  .quantity-controls_01 span {
+    margin: 0 10px; /*Отступы слева и справа от счетчика */
+    font-size: 20px;
+  }
+
+  

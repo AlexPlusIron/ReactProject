@@ -1,0 +1,19 @@
+.address-container {
+  background-color: #f2f2f2;
+  padding: 1vw; /* Используем vw для отступов, зависящих от ширины экрана */
+  border-radius: 1vw; /* Используем vw для закругления углов */
+  height: 150px;
+}
+
+.address-type, .address-data {
+  background-color: #f2f2f2;
+  padding: 1vw; /* Используем vw для отступов, зависящих от ширины экрана */
+  border-radius: 2vw; /* Используем vw для закругления углов */
+  font-size: 1.5rem; /* Используем rem для масштабирования шрифта, зависящего от размера контейнера */
+  font-weight: 700;
+}
+
+.address-data {
+  
+  font-weight: 500;
+}

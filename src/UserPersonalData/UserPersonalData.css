@@ -1,0 +1,37 @@
+/* UserPersonalData.css */
+.user-data {
+    
+    padding: 0px; /* Внутренний отступ */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+    align-self: center;
+    width: 40%;
+    
+  }
+  
+  .user-data input {
+    background-color: #45a049;
+    margin-bottom: 5px; /* Отступ между полями ввода */
+    padding: 10px; /* Внутренний отступ */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 5px; /* Закругленные углы */
+    }
+  
+  .user-data button {
+    width: 100%;
+    padding: 10px; /* Внутренний отступ */
+    margin-top: 5px;
+    border: none;
+    background-color: azure; /* Зеленый цвет кнопки */
+    color: black; /* Цвет текста */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer;
+  }
+  
+  .user-data button:hover {
+    background-color: #45a049; /* Изменение цвета при наведении */
+  }
+
+  .input-field::placeholder {
+    color: rgb(251, 251, 251); /* Новый цвет текста placeholder */
+  }

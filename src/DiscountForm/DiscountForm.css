@@ -1,0 +1,41 @@
+/* DiscountForm.css */
+.discount-form-container {
+  text-align: center;
+  background-color: #26941a; /* Зеленый фон */
+  color: azure;
+  padding: 1vw; /* Используем vw для отступов, зависящих от ширины экрана */
+  border-radius: 1vw; /* Используем vw для закругления углов */
+  font-size: 1.7rem; /* Используем rem для масштабирования шрифта, зависящего от размера контейнера */
+  font-weight: 700;
+  margin: 50px 0 50px 0;
+  padding-bottom: 0;
+  height: auto;
+  display: grid;
+}
+
+/* .form-heading {
+   Дополнительные стили для заголовка 
+} */
+
+.form-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 0;
+  /* Дополнительные стили для контента формы */
+  align-self: flex-end; /* прижимаем изображение к нижней границе контейнера */
+  margin-top: auto; /* добавляем отступ сверху, чтобы прижатое изображение не прилипало к верхней границе */
+}
+
+.discount-image {
+  max-width: 50%;
+  /* Дополнительные стили для изображения */
+  
+}
+
+.user-data {
+  
+  display: flex;
+  flex-direction: column;
+  /* Дополнительные стили для данных пользователя */
+}

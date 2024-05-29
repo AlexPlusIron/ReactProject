@@ -1,0 +1,51 @@
+/* ImageOverlay.css */
+.image-overlay-container {
+  position: relative;
+  display: inline-block;
+  height: 35vmax; /* Ограничение высоты */
+  overflow: hidden; /* Обрезание содержимого */
+  border-radius: 1rem;
+  
+}
+
+.background-image {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 35%;
+      
+}
+
+.overlay-content {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 50%;
+}
+
+.overlay-content h2 {
+  font-size: 3.5vw;
+  
+  margin-bottom: 20px;
+}
+
+.overlay-content button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay-content button:hover {
+  background-color: #45a049;
+}
+
+  
+  .image-link {
+    text-decoration: none; /* Убираем подчеркивание ссылки */
+    color: inherit; /* Наследуем цвет ссылки */
+  }

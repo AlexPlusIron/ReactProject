@@ -1,0 +1,19 @@
+.cart-icon-container {
+    position: relative; /*Чтобы позиционировать badge */
+  }
+  
+  .cart-icon {
+    width: 50px; 
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -5px; /*Позиционируем badge */
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%; /*Делаем badge круглым */
+    padding: 4px 8px;
+    font-size: 12px; 
+  }
+  

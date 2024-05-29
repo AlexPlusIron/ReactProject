@@ -1,0 +1,35 @@
+.categories-container {
+   
+    margin: 0 auto; /* Центрируем контейнер на экране */
+    /* Дополнительные стили для контейнера категорий */
+    display: grid;
+    
+    
+  }
+  
+  .categories-grid {
+    
+    display: flex; /* Используем flex для расположения дочерних компонентов горизонтально */
+    justify-content: space-between; /* Равномерное распределение по горизонтали */
+    /*align-items: center;  Выравнивание по вертикали */
+    
+    width: 100%; /* Используем проценты для ширины сетки */
+    gap: 10px;
+    text-align: center;
+    margin: 0;
+    
+  }
+  
+  .cat-categ {
+    overflow-wrap: break-word;
+    
+  }
+
+  img { 
+    width: 100%; /* Ширина изображений */
+    height: auto; /* Высота изображении */
+   
+       
+  }
+
+ 

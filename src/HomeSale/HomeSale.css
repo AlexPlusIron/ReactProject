@@ -1,0 +1,14 @@
+.home-sale-container {
+   
+    margin: 0 auto; /* Центрируем контейнер на экране */
+    /* Дополнительные стили для контейнера категорий */
+    display: grid;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+    gap: 20px; /* отступ между элементами */
+  }
+  
+ 

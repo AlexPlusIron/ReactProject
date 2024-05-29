@@ -1,0 +1,14 @@
+.header-container {
+    background-color: #ffffff;
+    padding: 0px 10px 0px 10px;
+    border-bottom: 1px solid grey;
+    /* Дополнительные стили для контейнера заголовка */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Дополнительные стили для контента заголовка */
+  }
+  

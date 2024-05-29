@@ -1,0 +1,20 @@
+.product-card {
+    /* стили для карточки товара */
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .product-image {
+    max-width: 100%;
+    /* стили для изображения товара */
+    background-color: rgb(253, 253, 253);
+  }
+  
+  .product-name {
+    /* стили для названия товара */
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .product-price {
+    /* стили для цены товара */
+    background-color: rgb(255, 255, 255);
+  }

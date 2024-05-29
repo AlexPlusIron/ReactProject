@@ -1,0 +1,17 @@
+.product-grid {
+  display: grid;
+  /* display: flex; Используем flex для расположения дочерних компонентов горизонтально */
+  justify-content: space-between; /* Равномерное распределение по горизонтали */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  grid-gap: 20px;
+  justify-items: center;
+  width: 100%;
+}
+
+.app-container {
+  padding: 10px;
+}
+
+body{
+  min-width: 760px;  
+}
